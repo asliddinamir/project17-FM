@@ -7,6 +7,7 @@ btn.addEventListener('click', (e) => {
     e.preventDefault()
     if (inputValue.value === 0 || !inputValue.value.match(emailPattern)) {
         error.style.color = 'red'
+        inputValue.style.border = '1px solid red'
         error.innerText = 'Please Enter the valid email address'
     } else {
         error.style.color = 'green'
