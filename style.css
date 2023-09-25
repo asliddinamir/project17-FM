@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    --gray: hsl(0, 0%, 59%);
+    --dark-blue: hsl(209, 33%, 12%);
+    --light-red: hsl(354, 100%, 66%);
+    --pale-red: hsl(223, 100%, 88%);
+    --blue: hsl(223, 87%, 63%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    width: 650px;
+}
+
+.logo {
+    margin-block: 3rem;
+}
+
+.form {
+    width: 100%;
+}
+
+.input {
+    padding: 20px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid var(--blue);
+    font-family: inherit;
+    font-size: 17px;
+    width: 65%;
+}
+
+.btn {
+    width: 30%;
+    background-color: var(--blue);
+    border-radius: 50px;
+    padding: 17px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 17px;
+    border: none;
+    font-weight: 800;
+    box-shadow: rgba(50, 50, 93, 0.79) 0px 50px 100px -20px, rgba(0, 0, 0, 0.747) 0px 30px 60px -30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.title {
+    font-weight: 100;
+    color: var(--gray);
+    font-size: 45px;
+}
+
+.title span {
+    color: black;
+    font-weight: 800;
+}
+
+p {
+    margin-block: 1.5rem;
+}
+
+picture img {
+    width: 90%;
+    margin-block: 5rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons i {
+    background-color: transparent;
+    border: .1px solid var(--gray);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: var(--blue);
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-inline: 7px;
+    cursor: pointer;
+}
