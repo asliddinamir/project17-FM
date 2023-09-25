@@ -105,4 +105,11 @@ picture img {
     justify-content: center;
     margin-inline: 7px;
     cursor: pointer;
+    transition: .5s ease;
+}
+
+.icons i:hover {
+    background-color: var(--blue);
+    color: #fff;
+    border: .1pxm solid var(--blue);
 }
