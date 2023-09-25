@@ -92,7 +92,7 @@ body {
 
 picture img {
     width: 90%;
-    margin-block: 5rem;
+    margin-block: 4rem;
 }
 
 .icons {
@@ -128,6 +128,7 @@ picture img {
     color: var(--gray);
     font-size: 11px;
     font-weight: 500;
+    margin-block: 20px;
 }
 
 footer {
@@ -139,4 +140,45 @@ footer {
 
 footer a {
     color: red;
+}
+
+@media(max-width:670px) {
+    .container {
+        width: 105%;
+    }
+
+    .input {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    .title {
+        font-size: clamp(1.38rem, calc(-0.02rem + 6.96vw), 2.5rem);
+    }
+
+    .subscribe {
+        font-size: 15px;
+    }
+
+    .msg {
+        text-align: center;
+        margin: 10px 0 0 0;
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:325px) {
+    .container {
+        width: 120%;
+    }
 }
